@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@100&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body{
+  background-image: url(assets/imagemFundo.svg);
+  
+}
+
+.headerComplet{
+  display: flex;
+  position: relative;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#icon{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 35rem;
+}
+
+#text{
+  display: flex;
+}
+
+.textHeader{
+  color: #ffffff;
+  font-size: 1.5rem;
+  margin-right: 2.2rem;
+  font-family: 'Cabin';
+  text-decoration: none;
+  font-weight: 400;
+}
+.textHeader:hover{
+  color: #6A5ACD;
+  text-decoration:underline #000 ;
+}
+.textHeader:nth-child(5){
+  border: 0.1875rem solid #ffffff;
+  border-radius: 3.125rem;
+  padding: 0rem 1.125rem;
+  font-family: 'Cabin',sans-serif;
+  font-weight: 600;
+}
+
+.textHeader:nth-child(5):hover{
+  color: #6A5ACD;
+  background-color: #ffffff2f;
+  border:0.1875rem solid #6A5ACD ;
+  text-decoration: none;
+}
+
+.textMain{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 13rem;
+}
+.paragrafMain{
+  font-size: 7.75rem;
+  color: #ffffff;
+  font-family:'Archivo';
+  font-weight:700; 
+}
+
+#seta{
+  display: flex;
+  justify-content: center;
+  margin-top: 10.25rem;
+}
+.setaButton{
+  border: 5px solid #ffffff;
+  padding: 5px;
+  border-radius: 20px;
+}
